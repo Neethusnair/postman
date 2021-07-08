@@ -75,7 +75,7 @@ jobs:
           #git commit
           #git push origin +2d0ec3a036bb6bd932546517d2dffe148205810f:main
           #git reset 2d0ec3a --hard
-          #git push origin -f
+          ##git push origin -f
           git reset --hard 'HEAD~1'
 #         uses: author/action-rollback@stable
 #         with:
