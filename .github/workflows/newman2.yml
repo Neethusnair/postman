@@ -6,7 +6,7 @@ name: CI NewmanXActions
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ main ]
+    branches: [ deleting_main]
   pull_request:
     branches: [ main ]
 
@@ -79,7 +79,7 @@ jobs:
           #git tag
           git push origin --delete refs/heads/main
           git push origin main
-          #git reset --hard 'HEAD~1'
+          ##git reset --hard 'HEAD~1'
 #         uses: author/action-rollback@stable
 #         with:
 #           # Using a known release ID
