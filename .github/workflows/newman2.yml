@@ -66,7 +66,9 @@ jobs:
           #git reset --hard "${{ github.event.before }}"
           #git reset --hard "5f3d462"
           #git revert HEAD~1..HEAD
-          git revert HEAD@{1}
+          #git revert HEAD@{1}
+          #git revert bcb34217292a52bcdc33de4b1ae0e0ce0ec12bb7
+          git revert HEAD
 #         uses: author/action-rollback@stable
 #         with:
 #           # Using a known release ID
