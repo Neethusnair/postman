@@ -76,8 +76,10 @@ jobs:
           #git push origin +2d0ec3a036bb6bd932546517d2dffe148205810f:main
           #git reset 2d0ec3a --hard
           #git push origin -f
-          git tag
-          git reset --hard 'HEAD~1'
+          #git tag
+          git push origin --delete refs/heads/main
+          git push origin main
+          #git reset --hard 'HEAD~1'
 #         uses: author/action-rollback@stable
 #         with:
 #           # Using a known release ID
