@@ -69,7 +69,7 @@ jobs:
           #git revert HEAD@{1}
           #git revert bcb34217292a52bcdc33de4b1ae0e0ce0ec12bb7
           #git revert HEAD
-          git push origin +5ca20209^:main
+          git push origin +fa23ae2^:main
 #         uses: author/action-rollback@stable
 #         with:
 #           # Using a known release ID
